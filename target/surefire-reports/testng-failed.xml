@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Appium Suite]">
+  <test name="Appium Test(failed)">
+    <classes>
+      <class name="com.maven.appium.DragAndDropTestNGDemo">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dragAndDropTest"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.maven.appium.DragAndDropTestNGDemo -->
+    </classes>
+  </test> <!-- Appium Test(failed) -->
+</suite> <!-- Failed suite [Appium Suite] -->
